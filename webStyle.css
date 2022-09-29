@@ -1,0 +1,524 @@
+@font-face {
+  font-family: abc1;
+  src: url(Akaya_Kanadaka/AkayaKanadaka-Regular.ttf);
+}
+@font-face {
+  font-family: abc2;
+  src: url(Berkshire_Swash/BerkshireSwash-Regular.ttf);
+}
+@font-face {
+  font-family: logofont;
+  src: url(Finger_Paint/FingerPaint-Regular.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(Poppins/Poppins-Regular.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.fornavback {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.fornavback .forlogo {
+  color: #febc35 !important;
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: logofont;
+}
+.fornavback .forlogo span {
+  color: #c7c7c7;
+}
+
+.fornavtext ul li a {
+  font-size: 1rem;
+  color: #ffffff !important;
+  font-family: "poppins", sans-serif;
+  letter-spacing: 1px;
+  padding: 1.1rem !important;
+}
+.fornavtext ul li a:hover {
+  color: #febc35 !important;
+}
+.fornavtext form i {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.2509803922);
+  border-radius: 50%;
+  padding: 0.45rem;
+  font-size: 1.2rem;
+}
+.fornavtext form i:hover {
+  color: #febc35 !important;
+  background-color: black;
+}
+.fornavtext .fordropdwn-menu {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.fornavtext .fordropdwn-menu li a {
+  color: #ffffff;
+  padding: 0.8rem !important;
+}
+.fornavtext .fordropdwn-menu li a:hover {
+  color: #febc35;
+  background-color: #222222;
+}
+
+.slider-item {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  color: #ffffff !important;
+}
+
+.foricons i {
+  color: #febc35;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.foricons h5 {
+  color: #1a1d2d;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+}
+.foricons p {
+  color: #585858;
+  font-family: "poppins", sans-serif;
+  font-size: 0.6rem;
+}
+.foricons .card {
+  box-shadow: 0px 0px 3px gray;
+  transition: all 0.5s;
+}
+.foricons .card:hover {
+  box-shadow: none;
+}
+
+.fornewidea {
+  background-color: rgba(170, 170, 170, 0.1);
+  font-family: "poppins", sans-serif;
+}
+.fornewidea h1 {
+  color: #1a1d2d;
+}
+.fornewidea p {
+  color: #585858;
+  font-size: 1rem;
+}
+
+.forsatispart {
+  background-color: #1a1d2d;
+}
+.forsatispart i {
+  color: #febc35;
+  font-size: 2rem;
+}
+.forsatispart h1 {
+  color: #a3a3a3;
+  padding: 0.3rem;
+  font-weight: bolder;
+}
+.forsatispart p {
+  color: #585858;
+  font-family: "poppins", sans-serif;
+}
+
+.forclient-backimage {
+  background-image: white;
+  width: 100%;
+  height: auto;
+}
+.forclient-backimage h1 {
+  color: #1a1d2d;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+}
+.forclient-backimage p {
+  font-family: "poppins", sans-serif;
+  color: #585858;
+}
+.forclient-backimage .card {
+  box-shadow: 0px 0px 2px 2px #c7c7c7;
+  cursor: default;
+}
+.forclient-backimage .card:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.forclient-backimage .designerteam {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img13.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.forclient-backimage .designerteam .card:hover {
+  background-color: rgba(39, 39, 39, 0.5) !important;
+  cursor: default;
+}
+.forclient-backimage .designerteam .card p {
+  font-size: 0.8rem;
+}
+
+.forpartners-partback {
+  background-color: rgba(170, 170, 170, 0.1);
+}
+
+.forpartners-part {
+  color: #1a1d2d;
+}
+.forpartners-part h1 {
+  color: #1a1d2d;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+}
+.forpartners-part p {
+  color: #585858;
+  font-family: "poppins", sans-serif;
+}
+.forpartners-part ul li img {
+  border: 3px solid transparent;
+}
+.forpartners-part ul li:hover img {
+  border: 3px solid #feb114;
+  filter: saturate(130%);
+  transition: all 0.1s ease;
+}
+.forpartners-part ul li:hover h4 {
+  color: #feb114;
+  transition: all 0.1s;
+}
+.forpartners-part ul li img {
+  padding: 1rem;
+}
+.forpartners-part ul li h4 {
+  color: #aaaaaa;
+  cursor: default;
+}
+.forpartners-part ul li p {
+  color: #aaaaaa;
+  font-size: 0.8rem;
+  cursor: default;
+}
+
+.forcompany-backclr {
+  background-color: rgba(170, 170, 170, 0.1);
+}
+
+.forproject-part h1 {
+  color: #1a1d2d;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+}
+.forproject-part p {
+  color: #585858;
+  font-family: "poppins", sans-serif;
+}
+.forproject-part .cngbuttons button {
+  font-weight: bolder !important;
+}
+
+.forfooter-back {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(back4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+.forfooter-back h1 {
+  font-family: "poppins", sans-serif;
+  color: white;
+  font-weight: bolder;
+}
+.forfooter-back h4 {
+  font-family: "poppins", sans-serif;
+  color: white;
+}
+.forfooter-back p {
+  font-family: "poppins", sans-serif;
+  color: #aaaaaa;
+}
+.forfooter-back ul li a {
+  text-decoration: none;
+  color: #aaaaaa;
+  font-family: "poppins", sans-serif;
+}
+.forfooter-back ul li a:hover {
+  color: #febc35;
+}
+
+nav .btn {
+  position: relative;
+}
+nav .btn::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #febc35;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+  transition: all 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+}
+nav .btn:hover::before {
+  -webkit-clip-path: circle(0% at 50% 50%) !important;
+          clip-path: circle(0% at 50% 50%) !important;
+}
+
+.btn {
+  position: relative;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #febc35;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+  transition: all 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+}
+.btn:hover::before {
+  -webkit-clip-path: circle(100% at 50% 50%) !important;
+          clip-path: circle(100% at 50% 50%) !important;
+}
+
+.formoreabout {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img12.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.formoreabout p {
+  color: #aaaaaa;
+  font-family: "poppins", sans-serif;
+  width: 80%;
+}
+.formoreabout h1 {
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.forcompany-overview h1 {
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+  color: #1a1d2d;
+}
+.forcompany-overview p {
+  font-family: "poppins", sans-serif;
+  color: #585858;
+}
+.forcompany-overview ul li {
+  color: #585858;
+}
+.forcompany-overview ul li i {
+  color: #febc35;
+}
+
+.fordesign-partback {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img13.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.fordesign-partback h1 {
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+  color: #1a1d2d;
+}
+.fordesign-partback p {
+  font-family: "poppins", sans-serif;
+  color: #585858;
+}
+.fordesign-partback .forfeature-box {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 0.3rem;
+}
+.fordesign-partback .forfeature-box span {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  background-color: #febc35;
+  color: white;
+  font-size: 1.5vw !important;
+}
+.fordesign-partback .forfeature-box h5 {
+  font-family: "poppins", sans-serif;
+  color: #1a1d2d;
+  font-size: 1.5vw;
+}
+.fordesign-partback .forfeature-box p {
+  font-family: "poppins", sans-serif;
+  color: #585858;
+  font-size: 0.9vw;
+}
+
+#aboutourteam h1 {
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+  color: #1a1d2d;
+}
+#aboutourteam p {
+  font-family: "poppins", sans-serif;
+  color: #585858;
+}
+
+.forhovereffect .information {
+  opacity: 0;
+  transform: translateY(-3rem);
+  transition: all 0.3s ease;
+}
+.forhovereffect .information h6 {
+  color: #a3a3a3;
+  font-weight: bold;
+}
+.forhovereffect .information i {
+  color: #feb114;
+  padding: 0.3rem;
+  font-size: 1.7vw;
+}
+.forhovereffect .information i:hover {
+  color: white;
+}
+.forhovereffect:hover .information {
+  cursor: pointer;
+  opacity: 1;
+  transform: translateY(-5rem);
+}
+
+.forcontents {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img13.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.forcontents p {
+  color: #aaaaaa;
+  font-family: "poppins", sans-serif;
+  width: 80%;
+}
+.forcontents h1 {
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.forcontent-style {
+  text-align: start;
+}
+.forcontent-style h5,
+.forcontent-style h4 {
+  color: #feb114 !important;
+}
+.forcontent-style h1 {
+  color: #1a1d2d;
+}
+.forcontent-style p {
+  color: #585858;
+  margin-bottom: 1.2rem;
+}
+
+.servicesourrr p {
+  color: #585858;
+  margin-bottom: 1.2rem;
+}
+
+.forworks-part {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.forworks-part p {
+  color: #aaaaaa;
+  font-family: "poppins", sans-serif;
+  width: 80%;
+}
+.forworks-part h1 {
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.workcontent-part h4 {
+  color: #1a1d2d;
+  font-family: "poppins", sans-serif;
+}
+.workcontent-part .foriconscolor {
+  color: #585858;
+}
+
+.forcontact-us {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img18.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.forcontact-us p {
+  color: #aaaaaa;
+  font-family: "poppins", sans-serif;
+  width: 80%;
+}
+.forcontact-us h1 {
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.forcardcolor p {
+  color: #aaaaaa;
+  font-size: 1vw;
+}
+.forcardcolor p:hover {
+  color: #febc35;
+  cursor: pointer;
+}
+.forcardcolor h5 {
+  color: #585858;
+  font-size: 1.3vw;
+}
+.forcardcolor span {
+  color: #aaaaaa;
+  font-size: 1.3vw;
+}
+.forcardcolor span:hover {
+  color: #febc35;
+  cursor: pointer;
+}
+
+.foridea-design {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img9.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.foridea-design p {
+  color: #aaaaaa;
+  font-family: "poppins", sans-serif;
+  width: 80%;
+}
+.foridea-design h1 {
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.fordesign-image img:hover {
+  filter: saturate(200%) brightness(95%);
+  cursor: pointer;
+}/*# sourceMappingURL=webStyle.css.map */

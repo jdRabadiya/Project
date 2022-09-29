@@ -1,0 +1,656 @@
+@font-face {
+    font-family: abc1;
+    src: url(Akaya_Kanadaka/AkayaKanadaka-Regular.ttf);
+}
+
+@font-face {
+    font-family: abc2;
+    src: url(Berkshire_Swash/BerkshireSwash-Regular.ttf);
+}
+
+@font-face {
+    font-family: logofont;
+    src: url(Finger_Paint/FingerPaint-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+
+$navbg-color:rgba(0, 0, 0, 0.5);
+$navtext-color:#ffffff;
+$logo-color:#febc35;
+$iconbg-color:#ffffff40;
+$button-text:#222222;
+$buttonbg-color:#feb114;
+$heading-color:#1a1d2d;
+$texts-color:#585858;
+$partnericon-color:#a3a3a3;
+$footertext-color:#aaaaaa;
+$fade-bg-color:#212529;
+$font-s2:"poppins",
+sans-serif;
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fornavback {
+    background-color: $navbg-color;
+
+    .forlogo {
+        color: $logo-color !important;
+        font-size: 2rem;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-family: logofont;
+
+        span {
+            color: #c7c7c7;
+        }
+    }
+}
+
+.fornavtext {
+    ul li a {
+        font-size: 1rem;
+        color: $navtext-color !important;
+        font-family: $font-s2;
+        letter-spacing: 1px;
+        padding: 1.1rem !important;
+
+        &:hover {
+            color: $logo-color !important;
+        }
+    }
+
+    form i {
+        color: $navtext-color !important;
+        background-color: $iconbg-color;
+        border-radius: 50%;
+        padding: 0.45rem;
+        font-size: 1.2rem;
+
+        &:hover {
+            color: $logo-color !important;
+            background-color: black;
+        }
+    }
+
+    .fordropdwn-menu {
+        background-color: $navbg-color;
+
+        li a {
+            color: $navtext-color;
+            padding: 0.8rem !important;
+
+            &:hover {
+                color: $logo-color;
+                background-color: $button-text;
+            }
+        }
+    }
+}
+
+.slider-item {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: $navtext-color !important;
+}
+
+.foricons {
+    i {
+        color: $logo-color;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    h5 {
+        color: $heading-color;
+        font-size: 1.1rem;
+        font-weight: bold;
+        font-family: $font-s2;
+    }
+
+    p {
+        color: $texts-color;
+        font-family: $font-s2;
+        font-size: 0.6rem;
+    }
+
+    .card {
+        box-shadow: 0px 0px 3px gray;
+        transition: all 0.5s;
+
+        &:hover {
+            box-shadow: none;
+        }
+    }
+}
+
+.fornewidea {
+    background-color: rgba(170, 170, 170, 0.1);
+    font-family: $font-s2;
+
+    h1 {
+        color: $heading-color;
+    }
+
+    p {
+        color: $texts-color;
+        font-size: 1rem;
+    }
+}
+
+.forsatispart {
+    background-color: $heading-color;
+
+    i {
+        color: $logo-color;
+        font-size: 2rem;
+    }
+
+    h1 {
+        color: #a3a3a3;
+        padding: 0.3rem;
+        font-weight: bolder;
+    }
+
+    p {
+        color: $texts-color;
+        font-family: $font-s2;
+    }
+}
+
+.forclient-backimage {
+    background-image: white;
+    width: 100%;
+    height: auto;
+
+    h1 {
+        color: $heading-color;
+        font-family: $font-s2;
+        font-weight: bolder;
+    }
+
+    p {
+        font-family: $font-s2;
+        color: $texts-color;
+    }
+
+    .card {
+        box-shadow: 0px 0px 2px 2px #c7c7c7;
+        cursor: default;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1) !important;
+        }
+    }
+
+    .designerteam {
+        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img13.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+
+        .card {
+            &:hover {
+                background-color: rgba(39, 39, 39, 0.5) !important;
+                cursor: default;
+            }
+
+            p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+.forpartners-partback {
+    background-color: rgba(170, 170, 170, 0.1);
+}
+
+.forpartners-part {
+    color: $heading-color;
+
+    h1 {
+        color: $heading-color;
+        font-family: $font-s2;
+        font-weight: bolder;
+    }
+
+    p {
+        color: $texts-color;
+        font-family: $font-s2;
+    }
+
+    ul li {
+        img {
+            border: 3px solid transparent;
+        }
+
+        &:hover img {
+            border: 3px solid #feb114;
+            filter: saturate(130%);
+            transition: all 0.1s ease;
+        }
+
+        &:hover h4 {
+            color: #feb114;
+            transition: all 0.1s;
+        }
+
+        img {
+            padding: 1rem;
+        }
+
+        h4 {
+            color: $footertext-color;
+            cursor: default;
+        }
+
+        p {
+            color: $footertext-color;
+            font-size: 0.8rem;
+            cursor: default;
+        }
+    }
+}
+
+.forcompany-backclr {
+    background-color: rgba(170, 170, 170, 0.1);
+
+}
+
+.forproject-part {
+    h1 {
+        color: $heading-color;
+        font-family: $font-s2;
+        font-weight: bolder;
+    }
+
+    p {
+        color: $texts-color;
+        font-family: $font-s2;
+    }
+
+    .cngbuttons {
+        button {
+            font-weight: bolder !important;
+        }
+    }
+}
+
+.forfooter-back {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(back4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+
+    h1 {
+        font-family: $font-s2;
+        color: white;
+        font-weight: bolder;
+    }
+
+    h4 {
+        font-family: $font-s2;
+        color: white;
+    }
+
+    p {
+        font-family: $font-s2;
+        color: $footertext-color;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: $footertext-color;
+        font-family: $font-s2;
+
+        &:hover {
+            color: $logo-color;
+        }
+    }
+}
+
+nav .btn {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $logo-color;
+        clip-path: circle(0% at 50% calc(50%));
+        transition: all 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+    }
+
+    &:hover::before {
+        clip-path: circle(0% at 50% calc(50%)) !important;
+    }
+}
+
+.btn {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $logo-color;
+        clip-path: circle(0% at 50% calc(50%));
+        transition: all 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+    }
+
+    &:hover::before {
+        clip-path: circle(100% at 50% calc(50%)) !important;
+    }
+}
+
+
+
+
+// styles for more about
+.formoreabout {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img12.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+
+    p {
+        color: $footertext-color;
+        font-family: $font-s2;
+        width: 80%;
+    }
+
+    h1 {
+        color: white;
+        font-family: $font-s2;
+        font-weight: bolder;
+    }
+}
+
+.forcompany-overview {
+    h1 {
+        font-family: $font-s2;
+        font-weight: bolder;
+        color: $heading-color;
+    }
+
+    p {
+        font-family: $font-s2;
+        color: $texts-color;
+    }
+
+    ul {
+        li {
+            color: $texts-color;
+
+            i {
+                color: $logo-color;
+            }
+        }
+    }
+}
+
+.fordesign-partback {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img13.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+    h1 {
+        font-family: $font-s2;
+        font-weight: bolder;
+        color: $heading-color;
+    }
+
+    p {
+        font-family: $font-s2;
+        color: $texts-color;
+    }
+
+    .forfeature-box {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-radius: 0.3rem;
+
+        span {
+            padding: 0.5rem;
+            border-radius: 0.2rem;
+            background-color: #febc35;
+            color: white;
+            font-size: 1.5vw !important;
+        }
+
+        h5 {
+            font-family: $font-s2;
+            color: $heading-color;
+            font-size: 1.5vw;
+        }
+
+        p {
+            font-family: $font-s2;
+            color: $texts-color;
+            font-size: 0.9vw;
+        }
+    }
+}
+
+#aboutourteam {
+    h1 {
+        font-family: $font-s2;
+        font-weight: bolder;
+        color: $heading-color;
+    }
+
+    p {
+        font-family: $font-s2;
+        color: $texts-color;
+    }
+}
+
+.forhovereffect {
+    .information {
+        opacity: 0;
+        transform: translateY(-3rem);
+        transition: all 0.3s ease;
+
+        h6 {
+            color: #a3a3a3;
+            font-weight: bold;
+        }
+
+        i {
+            color: #feb114;
+            padding: 0.3rem;
+            font-size: 1.7vw;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    &:hover .information {
+        cursor: pointer;
+        opacity: 1;
+        transform: translateY(-5rem);
+
+    }
+}
+
+// for contents
+.forcontents {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img13.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+
+    p {
+        color: $footertext-color;
+        font-family: $font-s2;
+        width: 80%;
+    }
+
+    h1 {
+        color: white;
+        font-family: $font-s2;
+        font-weight: bolder;
+    }
+}
+
+.forcontent-style {
+    text-align: start;
+
+    h5,
+    h4 {
+        color: #feb114 !important;
+    }
+
+    h1 {
+        color: $heading-color;
+    }
+
+    p {
+        color: $texts-color;
+        margin-bottom: 1.2rem;
+    }
+}
+
+.servicesourrr {
+    p {
+        color: $texts-color;
+        margin-bottom: 1.2rem;
+    }
+}
+
+//for works part
+.forworks-part {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+
+    p {
+        color: $footertext-color;
+        font-family: $font-s2;
+        width: 80%;
+    }
+
+    h1 {
+        color: white;
+        font-family: $font-s2;
+        font-weight: bolder;
+    }
+}
+
+.workcontent-part {
+    h4 {
+        color: $heading-color;
+        font-family: $font-s2;
+    }
+
+    .foriconscolor {
+        color: $texts-color;
+    }
+}
+
+//for contact-us part
+.forcontact-us {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img18.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+
+    p {
+        color: $footertext-color;
+        font-family: $font-s2;
+        width: 80%;
+    }
+
+    h1 {
+        color: white;
+        font-family: $font-s2;
+        font-weight: bolder;
+    }
+}
+
+.forcardcolor {
+    p {
+        color: $footertext-color;
+        font-size: 1vw;
+
+        &:hover {
+            color: $logo-color;
+            cursor: pointer;
+        }
+    }
+
+    h5 {
+        color: $texts-color;
+        font-size: 1.3vw;
+    }
+
+    span {
+        color: $footertext-color;
+        font-size: 1.3vw;
+
+        &:hover {
+            color: $logo-color;
+            cursor: pointer;
+        }
+    }
+}
+
+// for idea-design part
+.foridea-design {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img9.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+
+    p {
+        color: $footertext-color;
+        font-family: $font-s2;
+        width: 80%;
+    }
+
+    h1 {
+        color: white;
+        font-family: $font-s2;
+        font-weight: bolder;
+    }
+}
+
+// for idea-design part
+.fordesign-image {
+    img {
+        &:hover {
+            filter: saturate(200%) brightness(95%);
+            cursor: pointer;
+        }
+    }
+}
